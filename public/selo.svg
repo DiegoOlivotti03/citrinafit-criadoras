@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Citrina Fit">
+  <title>Citrina Fit — selo (fundo amarelo)</title>
+  <circle cx="100" cy="100" r="100" fill="#F4B441"/>
+  <circle cx="100" cy="100" r="76" fill="none" stroke="#FBF7F3" stroke-width="7"/>
+  <g fill="#FBF7F3">
+    <path d="M100,96 Q86,66 78.79,41.74 A62,62 0 0,1 121.21,41.74 Q114,66 100,96 Z" transform="rotate(0 100 100)"/>
+    <path d="M100,96 Q86,66 78.79,41.74 A62,62 0 0,1 121.21,41.74 Q114,66 100,96 Z" transform="rotate(45 100 100)"/>
+    <path d="M100,96 Q86,66 78.79,41.74 A62,62 0 0,1 121.21,41.74 Q114,66 100,96 Z" transform="rotate(90 100 100)"/>
+    <path d="M100,96 Q86,66 78.79,41.74 A62,62 0 0,1 121.21,41.74 Q114,66 100,96 Z" transform="rotate(135 100 100)"/>
+    <path d="M100,96 Q86,66 78.79,41.74 A62,62 0 0,1 121.21,41.74 Q114,66 100,96 Z" transform="rotate(180 100 100)"/>
+    <path d="M100,96 Q86,66 78.79,41.74 A62,62 0 0,1 121.21,41.74 Q114,66 100,96 Z" transform="rotate(225 100 100)"/>
+    <path d="M100,96 Q86,66 78.79,41.74 A62,62 0 0,1 121.21,41.74 Q114,66 100,96 Z" transform="rotate(270 100 100)"/>
+    <path d="M100,96 Q86,66 78.79,41.74 A62,62 0 0,1 121.21,41.74 Q114,66 100,96 Z" transform="rotate(315 100 100)"/>
+  </g>
+</svg>

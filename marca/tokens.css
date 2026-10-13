@@ -1,0 +1,75 @@
+/* ==========================================================
+   CITRINA FIT — tokens de marca
+   Fonte única de verdade para cor e tipografia.
+   Usar estes valores no site, nos templates e nos fornecedores.
+   ========================================================== */
+
+:root {
+  /* ---------- COR ----------
+     Amarelo OFICIAL definido pelo Diego em 01/09/2026: #F4B441
+     (RGB 244,180,65). Substitui o #F9B847 medido da imagem original
+     e o #F7D67A da folha antiga. Os demais tons foram medidos da
+     identidade original. */
+  --citrina:        #F4B441;  /* amarelo oficial — logo, botão, destaque */
+  --creme:          #F6E9DA;  /* tom claro — fundo de bloco, miolo do limão */
+  --nude-areia:     #E6CDBB;  /* fundo secundário */
+  --off-white:      #FBF7F3;  /* fundo principal */
+  --caramelo:       #D1AB8D;  /* apoio, borda, detalhe */
+  --castanho:       #9B7451;  /* 5º swatch da paleta — apoio, ícone */
+  --cacau:          #5F4227;  /* TEXTO — derivado (escurecido) do castanho,
+                                 porque nenhum tom original passa em contraste */
+  --cacau-suave:    #8A6E52;  /* texto secundário, legenda */
+
+  /* Papéis semânticos */
+  --bg:             var(--off-white);
+  --bg-alt:         var(--nude-areia);
+  --texto:          var(--cacau);
+  --texto-suave:    var(--cacau-suave);
+  --acento:         var(--citrina);
+  --borda:          #E4D8C8;
+
+  /* Botão principal: amarelo com texto cacau (contraste 5.4:1 — aprovado) */
+  --btn-bg:         var(--citrina);
+  --btn-texto:      var(--cacau);
+
+  /* ---------- TIPOGRAFIA ---------- */
+  /* Cinzel é EXCLUSIVA do logo e de títulos curtos. Nunca em texto corrido:
+     é toda em capitulares e cansa a leitura. */
+  --fonte-logo:     'Cinzel', serif;
+  --fonte:          'Montserrat', -apple-system, Segoe UI, sans-serif;
+
+  --peso-display:   300;  /* títulos grandes */
+  --peso-texto:     400;  /* texto corrido — nunca abaixo disto */
+  --peso-enfase:    600;  /* botão, label, destaque */
+
+  /* Escala tipográfica */
+  --t-display:      clamp(2.25rem, 5vw, 3.5rem);
+  --t-titulo:       clamp(1.5rem, 3vw, 2rem);
+  --t-subtitulo:    1.125rem;
+  --t-corpo:        1rem;
+  --t-legenda:      0.875rem;
+
+  --entrelinha:     1.6;
+  --espaco-logo:    0.3em;  /* letter-spacing da assinatura */
+}
+
+/* ----------------------------------------------------------
+   NOTAS DE CONTRASTE (WCAG AA exige 4.5:1 para texto)
+   cacau  #5F4227  sobre off-white #FBF7F3 →  8.4:1  OK
+   cacau  #5F4227  sobre citrina   #F4B441 →  5.1:1  OK
+   cacau  #5F4227  sobre nude      #E6CDBB →  6.3:1  OK
+   castanho #9B7451 sobre off-white #FBF7F3 → 3.3:1  só título grande
+   citrina#F4B441  sobre off-white #FBF7F3 →  1.7:1  NUNCA usar em texto
+   branco #FFFFFF  sobre citrina   #F4B441 →  1.9:1  NUNCA usar em texto
+   ---------------------------------------------------------- */
+
+/* ----------------------------------------------------------
+   PARA FORNECEDOR / GRÁFICA
+   Amarelo Citrina  — HEX #F4B441 | RGB 244,180,65 | CMYK 0,26,73,4
+                      Pantone aproximado: 143 C
+   Nude Areia       — HEX #E6CDBB | RGB 230,205,187
+                      Pantone aproximado: 7528 C
+   Cacau            — HEX #5F4227 | RGB 95,66,39
+                      Pantone aproximado: 4625 C
+   Sempre confirmar com prova impressa antes de fechar tiragem.
+   ---------------------------------------------------------- */
