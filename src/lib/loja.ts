@@ -6,7 +6,7 @@ export type ResultadoSync = { ok: true } | { ok: false; erro: string };
 // Chama a API da loja Citrina. Roda so no servidor: o segredo nunca vai ao navegador.
 // Nunca lanca excecao, para nao bloquear o cadastro da criadora.
 export async function enviarCupons(corpo: CupomSync | CupomSync[]): Promise<ResultadoSync> {
-  const base = process.env.LOJA_URL?.replace(/\/+$/, "");
+  const base = process.env.LOJA_URL?.replace(/\/+$/, "").replace(/\/api\/public\/cupons-sync$/, "");
   const segredo = process.env.CUPONS_SYNC_SECRET;
   if (!base || !segredo) return { ok: false, erro: "LOJA_URL ou CUPONS_SYNC_SECRET não configurados." };
 
